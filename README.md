@@ -1,21 +1,21 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║   ███████╗██╗  ██╗██╗   ██╗                                      ║
-║   ██╔════╝██║ ██╔╝╚██╗ ██╔╝                                      ║
-║   ███████╗█████╔╝  ╚████╔╝                                       ║
-║   ╚════██║██╔═██╗   ╚██╔╝                                        ║
-║   ███████║██║  ██╗   ██║                                         ║
-║   ╚══════╝╚═╝  ╚═╝   ╚═╝                                         ║
+║   ███████╗██╗  ██╗██╗   ██╗                                       ║
+║   ██╔════╝██║ ██╔╝╚██╗ ██╔╝                                       ║
+║   ███████╗█████╔╝  ╚████╔╝                                        ║
+║   ╚════██║██╔═██╗   ╚██╔╝                                         ║
+║   ███████║██║  ██╗   ██║                                          ║
+║   ╚══════╝╚═╝  ╚═╝   ╚═╝                                          ║
 ║                                                                   ║
-║   ██████╗ ██╗██╗  ██╗███████╗██╗                                 ║
-║   ██╔══██╗██║╚██╗██╔╝██╔════╝██║                                 ║
-║   ██████╔╝██║ ╚███╔╝ █████╗  ██║                                 ║
-║   ██╔═══╝ ██║ ██╔██╗ ██╔══╝  ██║                                 ║
-║   ██║     ██║██╔╝ ██╗███████╗███████╗                            ║
-║   ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝                            ║
+║   ██████╗ ██╗██╗  ██╗███████╗██╗                                  ║
+║   ██╔══██╗██║╚██╗██╔╝██╔════╝██║                                  ║
+║   ██████╔╝██║ ╚███╔╝ █████╗  ██║                                  ║
+║   ██╔═══╝ ██║ ██╔██╗ ██╔══╝  ██║                                  ║
+║   ██║     ██║██╔╝ ██╗███████╗███████╗                             ║
+║   ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝                             ║
 ║                                                                   ║
-║    🛰️  See the Earth differently. One pixel at a time.  🌍        ║
+║    🛰️  See the Earth differently. One pixel at a time.  🌍       ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
 
@@ -56,7 +56,7 @@
 
 ---
 
-## ┌─── ✨ Key Features
+## ✨ Key Features
 
 | 🌟 Feature | Details |
 |---|---|
@@ -68,23 +68,23 @@
 
 ---
 
-## ┌─── 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 ```
   ╭──────────────────┬──────────────────────────────────────────────╮
   │  Layer           │  Technology                                  │
   ├──────────────────┼──────────────────────────────────────────────┤
-  │  🐍  Language     │  Python 3.x                                 │
-  │  🧠  Model        │  U-Net  (Deep Learning / CNN)               │
-  │  🖼️  Interface    │  Gradio  +  Hugging Face                    │
-  │  ☁️  Cloud        │  Google Colab                               │
-  │  📦  Model File   │  unet_model.h5  (pre-trained weights)       │
+  │  🐍  Language    │  Python 3.x                                  │
+  │  🧠  Model       │  U-Net  (Deep Learning / CNN)                │
+  │  🖼️  Interface   │  Gradio  +  Hugging Face                     │
+  │  ☁️  Cloud       │  Google Colab                                │
+  │  📦  Model File  │  unet_model.h5  (pre-trained weights)        │
   ╰──────────────────┴──────────────────────────────────────────────╯
 ```
 
 ---
 
-## ┌─── 🚀 Installation & Setup
+##  🚀 Installation & Setup
 
 ### Step 1 — Clone the Repository
 
@@ -127,7 +127,7 @@ gradio app App_satellite_segmentation_prediction.ipynb
 
 ---
 
-## ┌─── ☁️ Run on Google Colab
+##  ☁️ Run on Google Colab
 
 Prefer the cloud? No problem:
 
@@ -143,7 +143,7 @@ Prefer the cloud? No problem:
 
 ---
 
-## ┌─── 🎮 Usage Guide
+## 🎮 Usage Guide
 
 Once the app is running in your browser:
 
@@ -156,7 +156,7 @@ Once the app is running in your browser:
 
 ---
 
-## ┌─── 📁 Project Structure
+##  📁 Project Structure
 
 ```
 📦 SkyPixel/
@@ -174,7 +174,7 @@ Once the app is running in your browser:
 
 ---
 
-## ┌─── 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are always welcome and appreciated! 💖
 
@@ -189,7 +189,7 @@ Ideas we'd love to see: improved model accuracy, support for new satellite datas
 
 ---
 
-## ┌─── 📜 License
+##  📜 License
 
 This project is open source under the **MIT License** — free to use, modify, and share.
 
@@ -200,10 +200,10 @@ This project is open source under the **MIT License** — free to use, modify, a
 ```
 ╔════════════════════════════════════════════════════════════╗
 ║                                                            ║
-║   From space, everything looks like a pattern.            ║
+║   From space, everything looks like a pattern.             ║
 ║   SkyPixel makes sure you see every single one.  🛰️🌍     ║
 ║                                                            ║
-║               Made with ❤️  by  Laraib Khalid              ║
+║               Made with ❤️  by  Laraib Khalid             ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
 ```
