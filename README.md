@@ -203,7 +203,7 @@ This project is open source under the **MIT License** — free to use, modify, a
 ║   From space, everything looks like a pattern.             ║
 ║   SkyPixel makes sure you see every single one.  🛰️🌍     ║
 ║                                                            ║
-║               Made with ❤️  by  Laraib Khalid             ║
+║               Made with ❤️  by  Laraib Khalid              ║
 ║                                                            ║
 ╚════════════════════════════════════════════════════════════╝
 ```
