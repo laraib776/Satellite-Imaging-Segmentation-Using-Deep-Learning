@@ -1,68 +1,213 @@
-# Satellite-Imaging-Segmentation-Using-Deep-Learning
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║   ███████╗██╗  ██╗██╗   ██╗                                      ║
+║   ██╔════╝██║ ██╔╝╚██╗ ██╔╝                                      ║
+║   ███████╗█████╔╝  ╚████╔╝                                       ║
+║   ╚════██║██╔═██╗   ╚██╔╝                                        ║
+║   ███████║██║  ██╗   ██║                                         ║
+║   ╚══════╝╚═╝  ╚═╝   ╚═╝                                         ║
+║                                                                   ║
+║   ██████╗ ██╗██╗  ██╗███████╗██╗                                 ║
+║   ██╔══██╗██║╚██╗██╔╝██╔════╝██║                                 ║
+║   ██████╔╝██║ ╚███╔╝ █████╗  ██║                                 ║
+║   ██╔═══╝ ██║ ██╔██╗ ██╔══╝  ██║                                 ║
+║   ██║     ██║██╔╝ ██╗███████╗███████╗                            ║
+║   ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝                            ║
+║                                                                   ║
+║    🛰️  See the Earth differently. One pixel at a time.  🌍        ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
 
-**Overview**
+<div align="center">
 
-This is a deep learning-based project designed to perform segmentation on satellite imagery. Using the U-Net architecture, the project accurately identifies and classifies various land cover features within satellite images. The model is trained to segment complex satellite images and is packaged with an intuitive interface built using Gradio and Hugging Face, allowing for seamless interaction and visualization of the segmentation results. Additionally, the project is Colab-compatible, making it easy to run and experiment with.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![U-Net](https://img.shields.io/badge/U--Net-Deep%20Learning-FF6B6B?style=for-the-badge)
+![Gradio](https://img.shields.io/badge/Gradio-Interactive%20UI-FF7C00?style=for-the-badge&logo=gradio&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-Powered-FFE66D?style=for-the-badge)
+![Colab](https://img.shields.io/badge/Google%20Colab-Compatible-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-C3B1E1?style=for-the-badge)
 
-**Features**
+**[⭐ Star this repo](https://github.com/laraib776/Satellite-Imaging-Segmentation-Using-Deep-Learning)** · **[🐛 Report a Bug](https://github.com/laraib776/Satellite-Imaging-Segmentation-Using-Deep-Learning/issues)** · **[🤝 Contribute](#-contributing)**
 
-**1**- Deep Learning Architecture: Utilizes the U-Net model, a powerful convolutional network architecture for fast and precise image segmentation.
+</div>
 
-**2**- Interactive Interface: The project leverages Gradio and Hugging Face for a user-friendly UI/UX, enabling users to upload images and view segmented outputs in real time.
+---
 
-**3**- Colab Compatibility: The project can be easily run on Google Colab, providing a cloud-based environment for experimentation and development.
+## 🛰️ What Does the Earth Actually Look Like From Above?
 
-**4**- High Accuracy: Trained on satellite imagery datasets, the model offers precise segmentation results for various land cover types.
+> **Forests. Deserts. Cities. Rivers. Roads. All hidden in pixels.**
+> SkyPixel doesn't just look at satellite images — it *understands* them, segment by segment, feature by feature.
+>
+> ### 👉 **Upload a satellite image. Watch the Earth reveal itself.** 👈
+>
+> *Powered by U-Net deep learning. Visualized through a live Gradio interface. No PhD required.*
 
-**Installation**
+> [!NOTE]
+> SkyPixel is fully **Google Colab compatible** — no local GPU needed. Upload your notebook, run the cells, and start segmenting from the cloud instantly.
 
-To run the project, follow the steps below:
+---
 
-**1**. Clone the Repository
-   
->> git clone https://github.com/yourusername/skypixel.git
->> cd skypixel
+## ✦ About SkyPixel
 
-**2**. Create and Activate a Virtual Environment
-   
-It's recommended to use a virtual environment to manage dependencies.
->> python -m venv venv
->> source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+> **SkyPixel** is a deep learning project built on the **U-Net architecture** to perform precise segmentation on satellite imagery. It identifies and classifies land cover features — forests, water bodies, urban areas, and more — directly from raw satellite images.
+>
+> Wrapped in an intuitive **Gradio + Hugging Face** interface, results are visualized in real time. No complex setup, no command-line expertise required. Just upload and see.
 
-**3**. Install Dependencies
+---
 
-Install the necessary Python packages listed in the requirements.txt file.
+## ┌─── ✨ Key Features
 
->> pip install -r requirements.txt
+| 🌟 Feature | Details |
+|---|---|
+| 🧠 **U-Net Architecture** | Powerful convolutional network built for fast, precise image segmentation |
+| 🖼️ **Interactive UI** | Gradio + Hugging Face interface for real-time upload and visualization |
+| ☁️ **Colab Compatible** | Run entirely in the cloud — no local GPU required |
+| 🎯 **High Accuracy** | Trained on real satellite datasets for reliable land cover classification |
+| ⚡ **Real-Time Results** | Upload an image, get a segmented output instantly in your browser |
 
-**4**. Download the Pre-trained Model
+---
 
-Place the provided unet_model.h5 file in the project directory.
+## ┌─── 🛠️ Technology Stack
 
-**5**. Run the Application
+```
+  ╭──────────────────┬──────────────────────────────────────────────╮
+  │  Layer           │  Technology                                  │
+  ├──────────────────┼──────────────────────────────────────────────┤
+  │  🐍  Language     │  Python 3.x                                 │
+  │  🧠  Model        │  U-Net  (Deep Learning / CNN)               │
+  │  🖼️  Interface    │  Gradio  +  Hugging Face                    │
+  │  ☁️  Cloud        │  Google Colab                               │
+  │  📦  Model File   │  unet_model.h5  (pre-trained weights)       │
+  ╰──────────────────┴──────────────────────────────────────────────╯
+```
 
-You can run the application using the following command:
+---
 
->> gradio app App_satellite_segmentation_prediction.ipynb
+## ┌─── 🚀 Installation & Setup
 
-This will launch a web interface where you can upload satellite images and get segmented outputs.
+### Step 1 — Clone the Repository
 
-**6**. Run on Google Colab
+```bash
+git clone https://github.com/laraib776/Satellite-Imaging-Segmentation-Using-Deep-Learning.git
+cd skypixel
+```
 
-If you prefer to run the project on Google Colab, you can easily upload the notebooks and model files to Colab, install the required dependencies, and execute the cells. This allows for a convenient cloud-based experience.
+### Step 2 — Create & Activate a Virtual Environment
 
-**Usage**
+```bash
+python -m venv venv
 
-Open the application in your browser.
+# On macOS / Linux:
+source venv/bin/activate
 
-Upload a satellite image.
+# On Windows:
+venv\Scripts\activate
+```
 
-View the segmentation result displayed on the interface.
+### Step 3 — Install Dependencies
 
-**Contributing**
+```bash
+pip install -r requirements.txt
+```
 
-If you would like to contribute to this project, feel free to open issues or submit pull requests. We welcome contributions that can help improve the accuracy, efficiency, or usability of SkyPixel.
+### Step 4 — Add the Pre-trained Model
 
-**Authors**
+```
+📥  Place  unet_model.h5  in the root project directory
+```
 
-Laraib Khalid 
+### Step 5 — Launch the App
+
+```bash
+gradio app App_satellite_segmentation_prediction.ipynb
+```
+
+> 🌐 This launches a live web interface where you can upload satellite images and view segmented outputs instantly.
+
+---
+
+## ┌─── ☁️ Run on Google Colab
+
+Prefer the cloud? No problem:
+
+```
+  1. 📤  Upload the notebook + unet_model.h5 to Google Colab
+  2. ⚙️   Install required dependencies inside the notebook
+  3. ▶️   Execute the cells top to bottom
+  4. 🖼️  Upload a satellite image and view the segmentation live
+```
+
+> [!TIP]
+> Google Colab gives you free GPU access — ideal for running inference quickly without any local hardware requirements.
+
+---
+
+## ┌─── 🎮 Usage Guide
+
+Once the app is running in your browser:
+
+```
+  🌍  Step 1  →  Open the Gradio interface in your browser
+  📤  Step 2  →  Upload a satellite image
+  ⚡  Step 3  →  The model processes and segments the image
+  🗺️  Step 4  →  View the colour-coded segmentation output
+```
+
+---
+
+## ┌─── 📁 Project Structure
+
+```
+📦 SkyPixel/
+ │
+ ├── 📄 App_satellite_segmentation_prediction.ipynb  ← Main Gradio app
+ ├── 📄 README.md                                    ← You are here 👋
+ ├── 📄 requirements.txt                             ← All dependencies
+ ├── 🧠 unet_model.h5                                ← Pre-trained U-Net weights
+ │
+ ├── 📂 dataset/                    ← Satellite training images
+ │    └── 🖼️  images/  ·  masks/
+ │
+ └── 📂 outputs/                    ← Segmentation result previews
+```
+
+---
+
+## ┌─── 🤝 Contributing
+
+Contributions are always welcome and appreciated! 💖
+
+```
+  1. 🍴  Fork the repository
+  2. 🌿  Create your feature branch
+  3. 💾  Commit your changes
+  4. 📬  Open a Pull Request
+```
+
+Ideas we'd love to see: improved model accuracy, support for new satellite datasets, multi-class segmentation overlays, or a cleaner Gradio UI — all PRs are warmly welcome!
+
+---
+
+## ┌─── 📜 License
+
+This project is open source under the **MIT License** — free to use, modify, and share.
+
+---
+
+<div align="center">
+
+```
+╔════════════════════════════════════════════════════════════╗
+║                                                            ║
+║   From space, everything looks like a pattern.            ║
+║   SkyPixel makes sure you see every single one.  🛰️🌍     ║
+║                                                            ║
+║               Made with ❤️  by  Laraib Khalid              ║
+║                                                            ║
+╚════════════════════════════════════════════════════════════╝
+```
+
+*⭐ Drop a star if SkyPixel helped you see the Earth differently!*
+
+</div>
