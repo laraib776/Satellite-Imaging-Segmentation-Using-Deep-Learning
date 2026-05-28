@@ -11,6 +11,7 @@ from patchify import patchify
 from sklearn.preprocessing import MinMaxScaler
 import random
 import segmentation_models as sm
+import random 
 
 from keras.utils import get_custom_objects
 import tensorflow.keras as keras
