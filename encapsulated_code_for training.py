@@ -50,6 +50,7 @@ dataset_root_folder = '.'
 dataset_name = "DubiaDataset"
 
 # Patch size for images
+
 image_patch_size = 256
 
 # Initialize datasets
