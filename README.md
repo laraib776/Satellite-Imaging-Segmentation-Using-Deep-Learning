@@ -36,7 +36,7 @@
 
 ## 🛰️ What Does the Earth Actually Look Like From Above?
 
-> **Forests. Deserts. Cities. Rivers. Roads. All hidden in pixels.**
+> **Forests. Deserts. Cities. Rivers. Roads. All hidden in pixels**
 > SkyPixel doesn't just look at satellite images — it *understands* them, segment by segment, feature by feature.
 >
 > ### 👉 **Upload a satellite image. Watch the Earth reveal itself.** 👈
